@@ -10,7 +10,11 @@ public abstract class Pokemon {
     //Constructor
     //public Pokemon(){};
     //public Pokemon(String name, enum color, int healthPointLevel, String environment){};
-    public Pokemon(String name, int healthPointLevel, String environment){};
+    public Pokemon(String name, int healthPointLevel, String environment){
+        this.name = name;
+        this.healthPointLevel = healthPointLevel;
+        this.environment = environment;
+    };
 
     //getters
     public String getName() {
