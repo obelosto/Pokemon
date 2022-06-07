@@ -17,11 +17,13 @@ public class Main {
         pokemons.add(pok4);
 
         for(Pokemon pok : pokemons) {
-            //pok.getName();
+            System.out.println( pok.getName() );
             pok.makesSound();
             pok.fightsWith();
             System.out.println("\r ---+---");
         }
+
+
 
     }
 }
